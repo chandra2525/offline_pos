@@ -403,7 +403,7 @@ class EditProductPage extends StatelessWidget {
                                               File(productController
                                                   .imagePath.value),
                                               width: size.height * 0.256,
-                                              height: size.height * 0.144,
+                                              height: size.height * 0.256,
                                               fit: BoxFit.cover,
                                             )),
                                       ),

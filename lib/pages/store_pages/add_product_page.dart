@@ -408,13 +408,13 @@ class AddProductPage extends StatelessWidget {
                                                   File(productController
                                                       .imagePath.value),
                                                   width: size.height * 0.256,
-                                                  height: size.height * 0.144,
+                                                  height: size.height * 0.256,
                                                   fit: BoxFit.cover,
                                                 )
                                               : Image.asset(
                                                   'assets/images/product_placeholder2.png',
                                                   width: size.height * 0.256,
-                                                  height: size.height * 0.144,
+                                                  height: size.height * 0.256,
                                                   fit: BoxFit.fitHeight,
                                                 ),
                                         ),
